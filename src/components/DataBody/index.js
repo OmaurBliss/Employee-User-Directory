@@ -1,7 +1,7 @@
   
 import React, { useContext } from "react";
 import "./DataBody.css"
-import DataAreaContext from "../../utils/DataAreaContext"
+import DataAreaContext from "../../utils/DataAreaContext.js"
 
 const DataBody = () => {
     const context = useContext(DataAreaContext);
